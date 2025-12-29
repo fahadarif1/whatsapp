@@ -1,0 +1,30 @@
+.whatsapp-rapper i {
+  position: fixed;
+  left: 60px;
+  bottom: 45px;
+  font-size: 45px;
+  z-index: 2;
+  filter: drop-shadow(1px 1px 1px black);
+  color: rgb(79, 206, 93);
+}
+.whatsapp-rapper a {
+  background: aquamarine;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  z-index: 14;
+}
+
+.whatsapp-rapper i::after {
+  content: "Contact Us on Whatsapp";
+  font-size: 11px;
+  font-family: "poppins";
+  position: absolute;
+  left: -50px;
+  bottom: -20px;
+  width: max-content;
+  color: rgb(79, 206, 93);
+  text-align: center;
+  text-decoration: none;
+  filter: drop-shadow(1px 0px 0px black);
+}
